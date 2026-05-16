@@ -1,6 +1,6 @@
 Excited to share my first end-to-end Data Analytics project: Superstore Sales Analytics.
 
-In this project, I worked with a retail Superstore dataset and analyzed sales performance using Python, MySQL, Power BI, Tableau, and Tabula.
+In this project, I worked with a retail Superstore dataset and analyzed sales performance using Python, MySQL, Power BI, and Tableau.
 
 What I did:
 

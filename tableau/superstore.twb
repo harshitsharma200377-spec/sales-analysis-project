@@ -25,7 +25,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Superstore Sales Dataset' name='textscan.09x35rt1uaghol1gyp1z0031qt1j'>
-            <connection class='textscan' directory='C:/Users/Admin/Documents/linkedin' filename='Superstore Sales Dataset.csv' password='' server='' />
+            <connection class='textscan' directory='../data' filename='Superstore Sales Dataset.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.09x35rt1uaghol1gyp1z0031qt1j' name='Superstore Sales Dataset.csv' table='[Superstore Sales Dataset#csv]' type='table'>

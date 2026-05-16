@@ -1,0 +1,46 @@
+<svg width="1400" height="850" viewBox="0 0 1400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="850" fill="#F6F8FB"/>
+  <rect x="42" y="42" width="1316" height="766" rx="6" fill="#FFFFFF" stroke="#CCD3DD" stroke-width="2"/>
+  <text x="78" y="98" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">MySQL Query Results Preview</text>
+  <text x="80" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#5B6472">File: sql/mysql_superstore.sql | Database: superstore | Table: sales</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="18">
+    <rect x="78" y="170" width="1244" height="86" rx="4" fill="#0F172A"/>
+    <text x="104" y="205" fill="#B7F7D1">SELECT ROUND(SUM(Sales), 2) AS total_sales FROM sales;</text>
+    <text x="104" y="234" fill="#D8DEE9">total_sales: 2261536.78</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="78" y="306" font-size="24" font-weight="700" fill="#172033">Sales by Category</text>
+    <rect x="78" y="330" width="580" height="190" fill="#FFFFFF" stroke="#CCD3DD"/>
+    <rect x="78" y="330" width="580" height="42" fill="#EAF0F8"/>
+    <text x="102" y="358" font-size="17" font-weight="700" fill="#172033">Category</text>
+    <text x="430" y="358" font-size="17" font-weight="700" fill="#172033">Total Sales</text>
+    <text x="102" y="410" font-size="17" fill="#172033">Technology</text>
+    <text x="430" y="410" font-size="17" fill="#172033">827,455.87</text>
+    <text x="102" y="458" font-size="17" fill="#172033">Furniture</text>
+    <text x="430" y="458" font-size="17" fill="#172033">728,658.58</text>
+    <text x="102" y="506" font-size="17" fill="#172033">Office Supplies</text>
+    <text x="430" y="506" font-size="17" fill="#172033">705,422.33</text>
+
+    <text x="742" y="306" font-size="24" font-weight="700" fill="#172033">Top 5 Cities</text>
+    <rect x="742" y="330" width="580" height="284" fill="#FFFFFF" stroke="#CCD3DD"/>
+    <rect x="742" y="330" width="580" height="42" fill="#EAF0F8"/>
+    <text x="766" y="358" font-size="17" font-weight="700" fill="#172033">City</text>
+    <text x="1094" y="358" font-size="17" font-weight="700" fill="#172033">Total Sales</text>
+    <text x="766" y="410" font-size="17" fill="#172033">New York City</text>
+    <text x="1094" y="410" font-size="17" fill="#172033">252,462.55</text>
+    <text x="766" y="458" font-size="17" fill="#172033">Los Angeles</text>
+    <text x="1094" y="458" font-size="17" fill="#172033">173,420.18</text>
+    <text x="766" y="506" font-size="17" fill="#172033">Seattle</text>
+    <text x="1094" y="506" font-size="17" fill="#172033">116,106.32</text>
+    <text x="766" y="554" font-size="17" fill="#172033">San Francisco</text>
+    <text x="1094" y="554" font-size="17" fill="#172033">109,041.12</text>
+    <text x="766" y="602" font-size="17" fill="#172033">Philadelphia</text>
+    <text x="1094" y="602" font-size="17" fill="#172033">108,841.75</text>
+
+    <text x="78" y="664" font-size="24" font-weight="700" fill="#172033">Business Queries Included</text>
+    <rect x="78" y="688" width="1244" height="72" fill="#F8FAFC" stroke="#CCD3DD"/>
+    <text x="102" y="733" font-size="18" fill="#172033">row count, preview records, total sales, category sales, top cities, monthly sales, region sales, segment sales</text>
+  </g>
+</svg>

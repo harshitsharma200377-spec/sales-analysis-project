@@ -1,5 +1,7 @@
 # Superstore Sales Analytics Project
 
+Status: Complete
+
 End-to-end sales analytics project using Python, MySQL, Power BI, and Tableau on the Superstore sales dataset.
 
 ## Project Overview
@@ -28,25 +30,40 @@ This project analyzes retail sales performance across categories, cities, and mo
 - MySQL
 - Power BI
 - Tableau
-- Tabula
+
+## Final Deliverables
+
+- Clean Superstore sales dataset
+- Python notebook for analysis
+- MySQL query file for business questions
+- Power BI dashboard file
+- Tableau dashboard file
+- Dashboard, Tableau, and MySQL preview images
+- LinkedIn post draft
+- Data dictionary
 
 ## Repository Structure
 
 ```text
 assets/
   category_sales_chart.svg
+  mysql_query_results_preview.svg
   sales_summary_dashboard.svg
+  tableau_dashboard_preview.svg
 data/
   Superstore Sales Dataset.csv
 docs/
+  data-dictionary.md
   linkedin-post.md
 notebooks/
   superstore.ipynb
 powerbi/
   powerbi project.pbix
 sql/
+  README.md
   mysql_superstore.sql
 tableau/
+  README.md
   superstore.twb
 ```
 
@@ -54,7 +71,19 @@ tableau/
 
 ![Sales summary dashboard](assets/sales_summary_dashboard.svg)
 
+![Tableau dashboard preview](assets/tableau_dashboard_preview.svg)
+
+![MySQL query results preview](assets/mysql_query_results_preview.svg)
+
 ![Category sales chart](assets/category_sales_chart.svg)
+
+## Tableau Dashboard
+
+The Tableau workbook is stored at `tableau/superstore.twb`. It contains a dashboard named `Dashboard 1` with KPI sales, KPI order count, sales by category, region sales, and monthly sales views.
+
+## MySQL Analysis
+
+The MySQL workflow is stored at `sql/mysql_superstore.sql`. It includes database setup, an optional table schema, import guidance, and business queries for total sales, category performance, top cities, monthly trends, and region performance.
 
 ## Analysis Performed
 
@@ -81,6 +110,12 @@ pip install -r requirements.txt
 4. Run the notebook cells from top to bottom.
 5. Import `data/Superstore Sales Dataset.csv` into MySQL and run `sql/mysql_superstore.sql`.
 6. Open the Power BI and Tableau files from their folders.
+
+## Validation
+
+- Dataset row count verified: 9,800 records
+- Total sales verified: 2,261,536.78
+- GitHub repository is focused only on this analytics project
 
 ## Business Questions Answered
 

@@ -1,0 +1,61 @@
+<svg width="1400" height="850" viewBox="0 0 1400 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="850" fill="#F7F8FA"/>
+  <rect x="34" y="34" width="1332" height="782" rx="6" fill="#FFFFFF" stroke="#C8CED8" stroke-width="2"/>
+  <text x="70" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">Tableau Dashboard Preview</text>
+  <text x="72" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#5B6472">Workbook: tableau/superstore.twb | Dashboard: Dashboard 1</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="70" y="165" width="300" height="138" rx="4" fill="#F3F6FB" stroke="#D6DCE6"/>
+    <text x="95" y="204" font-size="17" fill="#5B6472">KPI Sales</text>
+    <text x="95" y="260" font-size="38" font-weight="700" fill="#1F6FEB">2.26M</text>
+
+    <rect x="400" y="165" width="300" height="138" rx="4" fill="#F3F6FB" stroke="#D6DCE6"/>
+    <text x="425" y="204" font-size="17" fill="#5B6472">KPI Orders</text>
+    <text x="425" y="260" font-size="38" font-weight="700" fill="#16833A">9,800</text>
+
+    <rect x="730" y="165" width="270" height="138" rx="4" fill="#F3F6FB" stroke="#D6DCE6"/>
+    <text x="755" y="204" font-size="17" fill="#5B6472">Top Category</text>
+    <text x="755" y="260" font-size="34" font-weight="700" fill="#C2410C">Technology</text>
+
+    <rect x="1030" y="165" width="266" height="138" rx="4" fill="#F3F6FB" stroke="#D6DCE6"/>
+    <text x="1055" y="204" font-size="17" fill="#5B6472">Top Region</text>
+    <text x="1055" y="260" font-size="34" font-weight="700" fill="#7A3EA1">West</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="70" y="342" width="610" height="206" rx="4" fill="#FFFFFF" stroke="#D6DCE6"/>
+    <text x="96" y="385" font-size="23" font-weight="700" fill="#172033">Sales by Category</text>
+    <text x="96" y="442" font-size="17" font-weight="700" fill="#172033">Technology</text>
+    <rect x="252" y="421" width="360" height="28" fill="#1F6FEB"/>
+    <text x="624" y="443" font-size="16" fill="#5B6472">827K</text>
+    <text x="96" y="492" font-size="17" font-weight="700" fill="#172033">Furniture</text>
+    <rect x="252" y="471" width="317" height="28" fill="#C2410C"/>
+    <text x="624" y="493" font-size="16" fill="#5B6472">729K</text>
+    <text x="96" y="542" font-size="17" font-weight="700" fill="#172033">Office Supplies</text>
+    <rect x="252" y="521" width="307" height="28" fill="#16833A"/>
+    <text x="624" y="543" font-size="16" fill="#5B6472">705K</text>
+
+    <rect x="710" y="342" width="586" height="206" rx="4" fill="#FFFFFF" stroke="#D6DCE6"/>
+    <text x="736" y="385" font-size="23" font-weight="700" fill="#172033">Region Sales</text>
+    <circle cx="843" cy="468" r="62" fill="#1F6FEB" opacity="0.88"/>
+    <circle cx="940" cy="470" r="54" fill="#16833A" opacity="0.88"/>
+    <circle cx="1022" cy="474" r="46" fill="#C2410C" opacity="0.88"/>
+    <circle cx="1092" cy="477" r="39" fill="#7A3EA1" opacity="0.88"/>
+    <text x="806" y="565" font-size="16" fill="#5B6472">West</text>
+    <text x="914" y="565" font-size="16" fill="#5B6472">East</text>
+    <text x="990" y="565" font-size="16" fill="#5B6472">Central</text>
+    <text x="1066" y="565" font-size="16" fill="#5B6472">South</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="70" y="585" width="1226" height="168" rx="4" fill="#FFFFFF" stroke="#D6DCE6"/>
+    <text x="96" y="628" font-size="23" font-weight="700" fill="#172033">Monthly Sales Trend</text>
+    <polyline points="110,710 205,688 300,702 395,674 490,691 585,652 680,681 775,658 870,631 965,667 1060,612 1155,620 1248,592" fill="none" stroke="#1F6FEB" stroke-width="5"/>
+    <line x1="110" y1="724" x2="1248" y2="724" stroke="#C8CED8" stroke-width="2"/>
+    <text x="110" y="766" font-size="16" fill="#5B6472">Jan</text>
+    <text x="388" y="766" font-size="16" fill="#5B6472">Apr</text>
+    <text x="675" y="766" font-size="16" fill="#5B6472">Jul</text>
+    <text x="960" y="766" font-size="16" fill="#5B6472">Oct</text>
+    <text x="1218" y="766" font-size="16" fill="#5B6472">Dec</text>
+  </g>
+</svg>
