@@ -24,6 +24,6 @@ This project helped me understand how raw data can be cleaned, analyzed, queried
 
 I am currently learning data analytics and building my portfolio step by step. Feedback is welcome.
 
-GitHub project link: add your GitHub repository link here
+GitHub project link: https://github.com/harshitsharma200377-spec/sales-analysis-project
 
 #DataAnalytics #Python #MySQL #PowerBI #Tableau #DataVisualization #PortfolioProject #LearningInPublic
